@@ -1,0 +1,44 @@
+.form {
+  padding-top: 190px;
+  //position: relative;
+  &-title {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #151414;
+  }
+
+  &-subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3B433E;
+    margin: 15px 0 60px;
+  }
+
+  &-inp {
+    width: 330px;
+    height: 60px;
+    border: 1.5px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 165px;
+    padding-left: 20px;
+  }
+
+  &-btn {
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: wheat;
+  }
+
+  &_row {
+    display: flex;
+    column-gap: 15px;
+    position: absolute;
+    left: 38%;
+  }
+}

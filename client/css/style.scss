@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import "enhancers";
+@import "../libs/css/fontello.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Roboto Mono',sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1332px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content{
+  max-width: 1130px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.burger{
+  display: none;
+}
+
+
+
+@import "header";
+@import "main";
+@import "overlay";
+@import "us";
+@import "about";
+@import "fresh";
+@import "chef";
+@import "salad";
+@import "client";
+@import "form";
+@import "end";
+@import "footer";
+@import "media";

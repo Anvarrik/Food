@@ -1,0 +1,51 @@
+.main{
+  padding-bottom: 52px;
+  position: relative;
+  &-left{
+    padding-top: 179px;
+    &_title{
+      font-size: 46px;
+      line-height: 95px;
+      color: #181D19;
+      transition: 1s;
+      &:hover{
+        color: red;
+        transition: 1s;
+      }
+    }
+    &_subtitle{
+      font-size: 16px;
+      line-height: 34px;
+      color: #181D19;
+    }
+    &_btn{
+      width: 200px;
+      height: 64px;
+      background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+      border-radius: 50px;
+      color: wheat;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      margin-top: 50px;
+    }
+  }
+  &-right{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    &_food{
+      width: 100%;
+      max-width: 700px;
+
+    }
+    &_list{
+      position: absolute;
+      left: -50px;
+      width: 100%;
+    }
+  }
+}
+span{
+  color: orangered;
+}

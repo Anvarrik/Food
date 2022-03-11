@@ -1,0 +1,493 @@
+@media (max-width: 1200px) {
+  .about-block {
+    column-gap: 0;
+  }
+  .about-right img {
+    width: 89%;
+  }
+  .about-right_img {
+    left: 300px;
+  }
+}
+@media (max-width: 1024px) {
+  .main-left_title {
+    font-size: 40px;
+  }
+  .about-right {
+    margin: 150px 0 0 16px;
+  }
+  .about-right img {
+    width: 72%;
+    left: 240px;
+  }
+  .chef-right img {
+    width: 104%;
+  }
+  .salad_row {
+    column-gap: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .header-menu {
+    column-gap: 26px;
+  }
+  .overlay .popup {
+    width: 610px;
+    height: 567px;
+  }
+  .main-left_title {
+    font-size: 32px;
+    line-height: 70px;
+  }
+  .main-left_subtitle {
+    font-size: 14px;
+  }
+  .main-right {
+    top: 117px;
+    left: 53%;
+  }
+  .us-subtitle {
+    font-size: 22px;
+  }
+  .about-sub {
+    font-size: 14px;
+  }
+  .about-right img {
+    width: 60%;
+  }
+  .about-right img {
+    width: 50%;
+    left: 170px;
+  }
+  .about-right {
+    margin: 221px 0 0 16px;
+  }
+  .fresh-col_title {
+    font-size: 45px;
+  }
+  .fresh-col_sub {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .fresh-col_img {
+    margin-top: 150px;
+  }
+  .chef-left_title {
+    font-size: 40px;
+  }
+  .chef-left_sub {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .chef-right img {
+    margin-top: 100px;
+  }
+  .salad-title {
+    font-size: 43px;
+  }
+  .salad_row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  .form-title {
+    font-size: 33px;
+  }
+  .form-subtitle {
+    font-size: 20px;
+  }
+  .form_row {
+    left: 22%;
+  }
+  .end-second {
+    margin-left: 69px;
+    column-gap: 68px;
+  }
+  .end-third {
+    margin-left: 58px;
+  }
+  .end-first_sub {
+    font-size: 14px;
+  }
+}
+@media (max-width: 650px) {
+  .burger{
+    width: 50px;
+    height: 40px;
+    border: 3px solid red;
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 3;
+    &_line{
+      width: 40px;
+      height: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: red;
+      &::before{
+        content: '';
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: 10px;
+        background-color: red;
+        transition: 1s;
+      }
+      &::after{
+        content: '';
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        top: -10px;
+        background-color: red;
+        transition: 1s;
+      }
+
+    }
+  }
+
+  .burger.active{
+    .burger_line{
+background-color: transparent;
+      &::before{
+        transform: rotate(45deg);
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      &::after{
+        transform: rotate(-45deg);
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+  .header-navbar{
+    display: flex;
+    position: fixed;
+    transition: 1s;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 500px;
+    background: url("../images/burger.jpg")center/cover no-repeat;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    border-bottom-left-radius: 10px;
+    .header-menu{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 20px;
+    }
+    .header-right{
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      align-items: center;
+    }
+  }
+
+  .header-navbar.active{
+transition: 1s;
+    right: 0;
+
+  }
+}
+@media (max-width: 425px) {
+  .main-right_list {
+    display: none;
+  }
+
+  .overlay .popup-right_inp {
+    width: 145px;
+    height: 60px;
+    margin-left: 20px;
+  }
+  .overlay .popup-right_title {
+    font-size: 15px;
+    right: -102px;
+  }
+  .overlay .popup-right_form {
+    row-gap: 15px;
+    top: 142px;
+    right: -133px;
+  }
+  .overlay .popup-right_btn {
+    width: 132px;
+    height: 50px;
+    font-size: 8px;
+    margin-left: 23px;
+
+  }
+  .overlay .popup {
+    width: 350px;
+    height: 471px;
+  }
+
+  .main-left_title {
+    font-size: 18px;
+    line-height: 49px;
+  }
+  .main-left_subtitle {
+    font-size: 7px;
+    line-height: 29px;
+  }
+  .main-right {
+    top: 190px;
+    left: 53%;
+  }
+  .main-left_btn {
+    width: 179px;
+    height: 48px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .header-navbar {
+    width: 242px;
+    height: 445px;
+  }
+  .burger {
+    top: 4px;
+    right: 0;
+  }
+  .us {
+    padding: 72px 0 50px;
+  }
+  .us-title {
+    font-size: 38px;
+  }
+  .us-subtitle {
+    font-size: 15px;
+  }
+  .us-row {
+    flex-direction: column;
+    row-gap: 45px;
+  }
+  .about-title {
+    font-size: 37px;
+    margin-top: 76px;
+  }
+  .about-sub {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .about-right img {
+    width: 44%;
+    left: 99px;
+  }
+  .about-right {
+    margin: 152px 0 0 16px;
+  }
+  .about-btn {
+    width: 180px;
+    height: 44px;
+    font-size: 15px;
+    margin-top: 29px;
+  }
+  .fresh-col_title {
+    font-size: 26px;
+    line-height: 42px;
+  }
+  .fresh-col_sub {
+    font-size: 11px;
+    line-height: 21px;
+  }
+  .fresh-col_img {
+    width: 133%;
+  }
+  .chef-left_title {
+    font-size: 25px;
+    line-height: 55px;
+  }
+  .chef-left_sub {
+    font-size: 13px;
+    line-height: 27px;
+  }
+  .chef-right img {
+    margin-top: 169px;
+    margin-left: -48px;
+    width: 133%;
+  }
+  .chef-left_text p {
+    font-size: 11px;
+    line-height: 25px;
+  }
+  .salad-title {
+    font-size: 24px;
+  }
+  .salad-sub {
+    font-size: 14px;
+  }
+  .chef {
+    padding-bottom: 90px;
+  }
+  .salad_col {
+    padding: 50px 31px;
+    width: 341px;
+    height: 512px;
+    margin-left: 24px;
+  }
+  .salad-btn {
+    width: 194px;
+    height: 61px;
+    font-size: 17px;
+    margin-top: 49px;
+  }
+  .client {
+    padding-top: 48px;
+  }
+  .client-title {
+    font-size: 31px;
+    line-height: 14px;
+  }
+  .swiper-slide img {
+    width: 122%;
+  }
+  .form {
+    padding-top: 70px;
+  }
+  .form-title {
+    font-size: 22px;
+  }
+  .form-subtitle {
+    font-size: 10px;
+  }
+  .form-inp {
+    width: 253px;
+  }
+  .form_row {
+    left: 4%;
+  }
+  .form-btn {
+    width: 133px;
+  }
+  .end {
+    padding-top: 210px;
+  }
+  .end-first_title {
+    font-size: 14px;
+  }
+  .end-second_title {
+    font-size: 16px;
+  }
+  .end-first_sub {
+    font-size: 6px;
+  }
+  .end-second {
+    margin-left: 44px;
+    column-gap: 39px;
+  }
+  .end-third_title {
+    font-size: 16px;
+  }
+  .end-third {
+    margin-left: 28px;
+    column-gap: 14px;
+  }
+  .end-second_item {
+    font-size: 11px;
+  }
+  .end-third_item {
+    font-size: 11px;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .about-sub {
+    font-size: 6px;
+  }
+  .overlay .popup-right_inp {
+    width: 126px;
+    height: 52px;
+    margin-left: 7px;
+  }
+  .overlay .popup {
+    width: 253px;
+    height: 442px;
+  }
+  .overlay .popup-right_form {
+    right: -108px;
+  }
+  .overlay .popup-right_btn {
+    width: 116px;
+    margin-left: 9px;
+  }
+  .header-navbar {
+    width: 196px;
+    height: 434px;
+  }
+  .header-menu_list-item {
+    font-size: 15px;
+  }
+  .about-right img {
+    width: 56%;
+    left: 56px;
+  }
+  .fresh-col_sub {
+    font-size: 6px;
+  }
+  .fresh-col_title {
+    font-size: 17px;
+    line-height: 42px;
+  }
+  .fresh-col_img {
+    width: 236%;
+    margin-top: 115px;
+  }.chef-left_sub {
+     font-size: 8px;
+   }
+  .chef-left_title {
+    font-size: 19px;
+  }
+  .chef-left_text p {
+    line-height: 14px;
+  }
+  .salad_col {
+    padding: 50px 10px;
+    width: 272px;
+  }
+  .client-title {
+    font-size: 23px;
+    line-height: 14px;
+  }
+  .form-title {
+    font-size: 16px;
+  }
+  .form-inp {
+    width: 167px;
+  }
+  .form-btn {
+    width: 121px;
+  }
+  .end-second {
+    margin-left: 22px;
+    column-gap: 21px;
+  }
+  .end-second_item {
+    font-size: 8px;
+  }
+  .end-second_title {
+    font-size: 11px;
+  }
+  .end-third {
+    margin-left: 21px;
+  }
+  .end-third_title {
+    font-size: 11px;
+  }
+  .end-third_item {
+    font-size: 8px;
+  }
+}

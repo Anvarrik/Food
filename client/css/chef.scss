@@ -1,0 +1,58 @@
+.chef{
+  padding-bottom: 140px;
+  &-row{
+    display: flex;
+    column-gap: 22px;
+  }
+  margin-top: 50px;
+&-left{
+  width: 60%;
+  &_title{
+    font-size: 54px;
+    line-height: 67px;
+    color: #151414;
+
+  }
+  &_sub{
+    font-size: 22px;
+    line-height: 34px;
+    color: #181D19;
+    padding: 30px 0;
+  }
+  &_check {
+    display: flex;
+
+    column-gap: 17px;
+  }
+&_box{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  &-inp{
+    width: 20px;
+    height: 20px;
+    background-color: #6EBF4B;
+    border-radius: 3px;
+
+  }
+}
+&_text{
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+  p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #181D19;
+
+  }
+}
+}
+  &-right{
+    width: 40%;
+    img{
+      width: 115%;
+      max-width: 727px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.header {
+  padding-top: 40px;
+
+  &-logo {
+    &_title {
+      font-family: Poppins, sans-serif;
+      font-size: 26px;
+      line-height: 39px;
+      color: #333;
+      transition: 1s;
+      &:hover{
+        font-size: 30px;
+        color: pink;
+        transition: 1s;
+      }
+    }
+  }
+
+  &-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-menu {
+    display: flex;
+    column-gap: 40px;
+
+    &_list {
+      &-item {
+        font-family: Sofia, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 27px;
+        transition: .5s;
+        color: #5FB848;
+
+        &:hover {
+          color: blue;
+          transition: .5s;
+        }
+      }
+    }
+  }
+
+  &-right {
+    &_btn {
+      width: 160px;
+      height: 54px;
+      background: #494949;
+      border-radius: 27px;
+      color: wheat;
+      border: none;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+.icon {
+  font-size: 20px;
+  transition: 1s;
+
+  &:hover {
+    font-size: 26px;
+    transition: 1s;
+  }
+}
